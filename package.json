@@ -1,0 +1,23 @@
+{
+  "name": "backup-fortress",
+  "version": "1.0.0",
+  "description": "Lightweight, production-ready, local-first automated backup utility with AES-256-GCM encryption and Supabase storage.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "backup-fortress": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["backup", "encryption", "supabase", "automation", "aes-256-gcm"],
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.4",
+    "archiver": "^7.0.1",
+    "dotenv": "^16.4.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
